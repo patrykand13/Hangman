@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8E1E1"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <TextView
+        android:id="@+id/hangmanTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="@string/hangman"
+        android:textSize="70sp"
+        android:textStyle="bold"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/hangingTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hanging"
+        android:textSize="30sp"
+        android:padding="5dp"/>
+
+    <Button
+        android:id="@+id/animalBT"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:text="@string/animal"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/my_button"/>
+    <Button
+        android:id="@+id/brandBT"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:text="@string/brand"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/my_button"/>
+</LinearLayout>

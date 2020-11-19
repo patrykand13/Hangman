@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Wisielec</string>
+    <string name="brand">CAR BRANDS</string>
+    <string name="animal">ANIMALS</string>
+    <string name="hangman">HANGMAN</string>
+    <string name="hanging">Hanging But Happier</string>
+    <string name="search">Search word: </string>
+    <string name="enter">enter the letter</string>
+    <string name="check">Check the letter</string>
+    <string name="letters">Letters: </string>
+    <string name="chance">You have 7 chance</string>
+    <string name="newgame">New game</string>
+</resources>
